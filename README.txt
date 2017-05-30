@@ -23,3 +23,6 @@ Then, on client side
   gcc -c rsa.c -o rsa.o
   gcc client.o sha1.o rsa.o -o client
   ./client
+
+
+Future Scope: Improving RSA implementation by using 128 bit key stored using an array.
