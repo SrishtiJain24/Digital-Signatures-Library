@@ -2,8 +2,7 @@
 A Digital Signatures Library (RSA)preceded with a hashing(SHA-1) library in C language
 
 Requirement: gcc 6.2 or above
-
-How to execute the entire project on system:
+Project Execution on system:
 
 Download all files except server.c on client side.
 Download server.c, sha1.c, sha1.h files on server side.
@@ -25,4 +24,6 @@ Then, on client side
   ./client
 
 
-Future Scope: Improving RSA implementation by using 128 bit key stored using an array.
+Future Scope: Improving RSA implementation by using 128 bit keys (stored using an array).
+
+The Project is licensed under GNU-GPl
